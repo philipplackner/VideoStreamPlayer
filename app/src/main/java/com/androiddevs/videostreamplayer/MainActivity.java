@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     DataSource.Factory dataSourceFactory;
 
     private void setupExoPlayer() {
-        String url = tracks.get(1).getUrl();
+        String url = tracks.get(0).getUrl();
 
         player = new SimpleExoPlayer.Builder(this).build();
         playerView.setPlayer(player);
